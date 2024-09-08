@@ -1,0 +1,46 @@
+.botaolink {
+  flex: 1;
+  margin: 0 20px;
+  height: 400px;
+  width: 400px;
+  background-size: contain; /* Ajusta a imagem para caber dentro do botão */
+  background-position: center;
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  border: none; /* Remove a borda padrão do botão */
+  padding: 0; /* Remove o padding padrão do botão */
+  cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse */
+}
+.botaolink:hover{
+  width: 440px;
+  height: 440px;
+
+  transition: width 0.3s, height 0.3s;
+}
+
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* Ajuste conforme necessário */
+  margin: 0 auto; /* Centraliza o contêiner */
+}
+
+
+.textolongo {
+  color: #064101; /* Cor do texto */
+  font-size: 25px; /* Tamanho da fonte */
+}
+
+.descricao{
+  color: #011100; /* Cor do texto */
+  font-size: 20px; /* Tamanho da fonte */
+  width: 35vw;
+
+}
+
+
+
