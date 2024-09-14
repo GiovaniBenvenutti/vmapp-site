@@ -11,8 +11,8 @@
   cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse */
 }
 .botaolink:hover{
-  width: 440px;
-  height: 440px;
+  width: 420px;
+  height: 420px;
 
   transition: width 0.3s, height 0.3s;
 }
@@ -38,9 +38,10 @@
 .descricao{
   color: #011100; /* Cor do texto */
   font-size: 20px; /* Tamanho da fonte */
-  width: 35vw;
-
+  width: 35vw; /* Largura */
+  text-align: justify; /* Justificar o texto */
 }
+
 
 
 
